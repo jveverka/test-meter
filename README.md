@@ -1,6 +1,7 @@
 # Test Meter
-Testing parallel scenarios in java made easy. 
+Testing parallel scenarios in Java and JUnit5 made easy. 
 
 ```
 gradle clean build test
+gradle publish
 ```

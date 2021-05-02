@@ -93,8 +93,8 @@ publishing {
                     }
                 }
                 scm {
-                    connection = 'scm:git:git@github.com:jveverka/rpi-projects.git'
-                    developerConnection = 'scm:git:git@github.com:jveverka/rpi-projects.git'
+                    connection = 'scm:git:git@github.com:jveverka/test-meter.git'
+                    developerConnection = 'scm:git:git@github.com:jveverka/test-meter.git'
                     url = 'https://github.com/jveverka/test-meter'
                 }
             }
