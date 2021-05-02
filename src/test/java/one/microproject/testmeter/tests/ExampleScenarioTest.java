@@ -31,9 +31,9 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
-public class ExampleTestScenarios {
+class ExampleScenarioTest {
 
-    private static final Logger LOG = LoggerFactory.getLogger(ExampleTestScenarios.class);
+    private static final Logger LOG = LoggerFactory.getLogger(ExampleScenarioTest.class);
 
     private static ScenarioRunner<TestScenarioContext, TestScenarioResponse> scenarioRunner;
 
