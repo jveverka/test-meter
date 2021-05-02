@@ -4,6 +4,7 @@ package one.microproject.testmeter;
 import one.microproject.testmeter.dto.RunnerContext;
 import one.microproject.testmeter.dto.ScenarioRequest;
 import one.microproject.testmeter.impl.ScenarioInitException;
+import one.microproject.testmeter.impl.ScenarioRunner;
 
 /**
  * Producer called by {@link ScenarioRunner}.
