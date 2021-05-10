@@ -9,6 +9,6 @@ gradle publish
 
 ### Example of use
 1. [include dependency](https://search.maven.org/artifact/one.microproject.testmeter/test-meter) 
-2. Implement ``TestScenario<ScenarioContext, ScenarioResponse>``
-3. Implement ``TestScenarioProducer<ScenarioContext, ScenarioResponse>``
-4. Use in test like this one ``ExampleScenarioTest``.
+2. Implement [``TestScenario<ScenarioContext, ScenarioResponse>``](src/main/java/one/microproject/testmeter/TestScenario.java)
+3. Implement [``TestScenarioProducer<ScenarioContext, ScenarioResponse>``](src/main/java/one/microproject/testmeter/TestScenarioProducer.java)
+4. Use in test like this one [``ExampleScenarioTest``](src/test/java/one/microproject/testmeter/tests/ExampleScenarioTest.java).
