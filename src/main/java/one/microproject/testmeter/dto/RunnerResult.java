@@ -2,22 +2,22 @@ package one.microproject.testmeter.dto;
 
 public class RunnerResult {
 
-    private final Integer id;
+    private final Integer runnerIndex;
     private final Integer nThreads;
     private final Integer repeat;
     private final Long started;
     private final Long duration;
 
-    public RunnerResult(Integer id, Integer nThreads, Integer repeat, Long started, Long duration) {
-        this.id = id;
+    public RunnerResult(Integer runnerIndex, Integer nThreads, Integer repeat, Long started, Long duration) {
+        this.runnerIndex = runnerIndex;
         this.nThreads = nThreads;
         this.repeat = repeat;
         this.started = started;
         this.duration = duration;
     }
 
-    public Integer getId() {
-        return id;
+    public Integer getRunnerIndex() {
+        return runnerIndex;
     }
 
     public Integer getnThreads() {

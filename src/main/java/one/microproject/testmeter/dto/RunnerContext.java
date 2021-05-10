@@ -2,19 +2,19 @@ package one.microproject.testmeter.dto;
 
 public class RunnerContext {
 
-    private final int runnerIndex;
-    private final int index;
+    private final Integer runnerIndex;
+    private final Integer index;
 
-    public RunnerContext(int runnerIndex, int index) {
+    public RunnerContext(Integer runnerIndex, Integer index) {
         this.runnerIndex = runnerIndex;
         this.index = index;
     }
 
-    public int getRunnerIndex() {
+    public Integer getRunnerIndex() {
         return runnerIndex;
     }
 
-    public int getIndex() {
+    public Integer getIndex() {
         return index;
     }
 
