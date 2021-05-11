@@ -1,6 +1,8 @@
 # Test Meter
 Testing parallel scenarios in Java and JUnit5 made easy. 
 
+![architecture](docs/architecture.svg)
+
 ### Build and Run
 ```
 gradle clean build test
